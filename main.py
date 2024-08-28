@@ -71,7 +71,7 @@ query = ("I have 3 apples and 4 oranges. I give half of my oranges"
          "strawberries. Each pack of strawberry has 30 strawberries." 
           "How  many total pieces of fruit do I have at the end?")
 
-query2 = "What is the derivative of x^2"
+query2 = "What is the derivative of cos(x)"
 
 response = agent_executor.invoke({"input":query2})
 
